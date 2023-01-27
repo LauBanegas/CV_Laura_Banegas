@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <!--Metadatos-->
+      <meta charset="utf-8">
+      <meta charset="author" content="Laura Banegas Britos">
+      <meta name="description" content="CV de Laura Banegas Britos">
+      <meta name="keywords" content="CV, HTML, CSS, JavaScript, Periodismo, Produccion">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--Titulo-->
+      <title>Laura Banegas | Desarrolladora Web, Productora y Periodista Deportiva</title>
+      <!--Favicon-->
+      <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+      <!--Bootstrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <!--Iconos de Bootstrap-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+      <!--CSS-->
+      <link href="style.css" rel="stylesheet">
+      <!--Google Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alata&family=Inconsolata&family=Lobster+Two:ital@1&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <!--Barra de navegacion-->
+      <nav class="navbar navbar-expand-md navbar-dark" id="navbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" style="color: #f9f8eb;" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: #f9f8eb;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand">
+                <img src="imagenes/icono.png" width="80" alt="Logo de la página web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: #f9f8eb;" aria-current="page" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #f9f8eb;" href="#habilidades">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #f9f8eb;" href="#experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #f9f8eb;" href="#referencias">Referencias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #f9f8eb;" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Seccion Hero-->
+      <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-desarrollador rounded-circle" id="imagen1" src="imagenes/fotoperfilcolor-cuadrada.jpg" alt="Foto de Laura Carolina Banegas Britos">
+            <h1>Laura Carolina Banegas Britos</h1>
+            <h2>Desarrolladora Web | Productora de Radio y TV | Periodista Deportiva.</h2>
+        </div>
+        <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" id="imagen2" src="imagenes/ilustracion-desarrollador.png" alt="Ilustración de desarrollo web.">
+        </div>
+      </section>
+
+      <!--Sobre mí-->
+      <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+          <h2 class="seccion-titulo">Sobre mí</h2>
+          <p class="seccion-texto">Soy una persona curiosa, en constante formación y búsqueda de aprendizaje. Con habilidades para el trabajo en equipo y manejo de software. Me destaco por la comunicación, empatía y capacidad de resolución de problemas. </p>
+        </div>
+      </section>
+
+      <!--Habilidades-->
+      <section id="habilidades" class="habilidades seccion-clara">
+        <div class="container text-center">
+          <div class="row">
+            <!--Desarrollo web-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+              <p class="habilidades-titulo seccion-titulo">Desarrollo Web</p>
+              <p class="seccion-texto">TICMAS ACADEMY</p>
+              <p class="seccion-texto">CURSO Introducción | Primeros pasos en Front-end // Ene 2023</p>
+              <p class="seccion-texto">INSTITUTO NACIONAL DE TECNOLOGÍA INDUSTRIAL (INTI) | ARGENTINA PROGRAMA </p>
+              <p class="seccion-texto">CURSO Introducción a la programación #SéProgramar // Oct 2022</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-success">HTML</span>
+                <span class="badge text-bg-success">CSS</span>
+                <span class="badge text-bg-success">JavaScript</span>
+              </div>
+            </div>
+            <!--Producción de radio y TV-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-broadcast-pin"></i>
+              <p class="habilidades-titulo seccion-titulo">Producción de Radio y TV</p>
+              <p class="seccion-texto">INSTITUTO SUPERIOR DE ENSEÑANZA RADIOFÓNICA (I.S.E.R.)</p>
+              <p class="seccion-texto">Productora y directora para radio y TV. // Mar 2012 - Nov 2014</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-success">Photoshop</span>
+                <span class="badge text-bg-success">Illustrator</span>
+                <span class="badge text-bg-success">Premiere</span>
+                <span class="badge text-bg-success">After Effects</span>
+              </div>
+            </div>
+            <!--Periodismo deportivo-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-newspaper"></i>
+              <p class="habilidades-titulo seccion-titulo">Periodismo Deportivo</p>
+              <p class="seccion-texto">INSTITUTO SUPERIOR DE PERIODISMO DEPORTIVO (I.S.Pe.D)</p>
+              <p class="seccion-texto">Técnico superior en periodismo deportivo. // Mar 2009 - Nov 2011</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-success">Redacción</span>
+                <span class="badge text-bg-success">Edición</span>
+                <span class="badge text-bg-success">Paquete Office</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Experiencia-->
+      <section id="experiencia" class="experiencia seccion-oscura justify-content-start">
+        <h2 class="seccion-titulo">Experiencia</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button seccion-clara seccion-texto collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                CRISTAL COM // Oct 2015 - Oct 2018  
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body seccion-clara seccion-texto">Community Management<br>Manejo de redes sociales: Facebook, Instagram y Twitter para diversas marcas. </div>
+            </div>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body seccion-clara seccion-texto">Creación, edición y programación de posteos: imágenes, gifs y videos. Diseño de anuncios. </div>
+            </div>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body seccion-clara seccion-texto">Administración de pauta publicitaria: campaña de me gusta, posteos patrocinados y conversiones al sitio web. </div>
+            </div>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body seccion-clara seccion-texto">Redacción de informes mensuales estadísticos y analíticos. </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button seccion-clara seccion-texto collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                RADIO DEMOS // Nov 2015 - Jul 2016  
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body seccion-clara seccion-texto">Producción de contenidos / Planificación de entrevistas. </div>
+            </div>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body seccion-clara seccion-texto">Supervisión de la salida al aire. </div>
+            </div>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body seccion-clara seccion-texto">Participación en los programas Circun, Enfocada y Afina Voz. </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button seccion-clara seccion-texto collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                DIARIO OLÉ (AGEA) // Abr 2010 - Abr 2011  
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body seccion-clara seccion-texto">Cobertura de entrenamientos / Realización de entrevistas. </div>
+            </div>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body seccion-clara seccion-texto">Redacción y edición de notas para la sección clubes chicos del diario Olé. </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Referencias-->
+      <section id="referencias" class="referencias seccion-clara">
+        <h2 class="seccion-titulo">Referencias</h2>
+        <h3 class="seccion-texto">Estas son algunas recomendaciones de personas con las que trabajé</h3>
+        <!--Carrusel-->
+        <div id="referencias-carrusel" class="carousel carousel-dark slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <img class="referencia-imagen rounded-circle" src="imagenes/referencia1.jpg" alt="Foto de Santiago Alonso">
+                <p class="referencia-texto">Gran compañera y profesional. Muy responsable, prolija y organizada. Disfruté mucho trabajar con ella. </p>
+                <div class="referencia-info">
+                  <p class="persona">Santiago Alonso</p>
+                  <p class="cargo">Periodista - Prosecretario de Redacción en Olé</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="referencia-imagen rounded-circle" src="imagenes/referencia2.jpg" alt="Foto de Belén Medina">
+                <p class="referencia-texto">Laura es una persona comprometida que ama los medios de comunicación y siempre está atenta a las necesidades del otro. </p>
+                <div class="referencia-info">
+                  <p class="persona">Belén Medina</p>
+                  <p class="cargo">Coordinadora de Producción en Radio Demos</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="referencia-imagen rounded-circle" src="imagenes/referencia3.jpg" alt="Foto de Silvina Rodríguez">
+                <p class="referencia-texto">Destaco su predisposición, entusiasmo y las ganas que pone en cada proyecto. Altamente recomendable. </p>
+                <div class="referencia-info">
+                  <p class="persona">Silvina Rodríguez</p>
+                  <p class="cargo">Socia y fundadora de Cristal Com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#referencias-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#referencias-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </section>
+
+      <!--Contacto-->
+      <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+          <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+              <div class="col-12 col-md-4 seccion-titulo">
+                Contactame
+              </div>
+              <div class="col-12 col-md-4 seccion-texto">
+                Enviame tu consulta y me pondré en contacto lo más pronto posible.
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="mailto:lau.banegas.britos@gmail.com">
+                  <button type="button">
+                    Contacto
+                    <i class="bi bi-envelope-at-fill"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Footer-->
+      <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="imagenes/icono.png" alt="Logo de Laura Banegas Britos">
+        <p class="footer-texto text-center">¡Gracias!</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+          <a href="https://www.instagram.com/lau.banegas/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/lau.banegas" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://twitter.com/laubanegas" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/laura-carolina-banegas-britos-738343b5/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://www.behance.net/laurabanegas" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-behance"></i>
+          </a>
+          <a href="mailto:lau.banegas.britos@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+          </a>
+        </div>
+        <div class="derechos-de-autor">
+          Laura Carolina Banegas Britos (2023) &#169;
+        </div>
+      </footer>
+
+      <!--JavaScript-->
+      <script src="script.js"> </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
